@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import "../App.css"; // Asegúrate de que esta ruta sea correcta
+import "../App.css";
 
 const getToken = () => {
   return localStorage.getItem("authToken");
